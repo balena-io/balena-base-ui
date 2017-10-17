@@ -8,7 +8,7 @@ jobs:
     environment:
       DOCKER_USERNAME: travisciresin
       DOCKER_EMAIL: accounts+travisci+docker@resin.io
-      DOCKER_IMAGE: resin/resin-base
+      DOCKER_IMAGE: resin/resin-base-ui
     steps:
       - checkout
       - setup_remote_docker:
