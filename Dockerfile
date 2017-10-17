@@ -8,9 +8,10 @@ RUN wget https://sks-keyservers.net/sks-keyservers.netCA.pem -O /usr/local/share
 	&& apt-get update -y \
   && apt-get install gnupg-curl -y
 
-RUN apt-key adv --keyserver hkps://hkps.pool.sks-keyservers.net --recv-keys 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
 RUN echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list
+
+RUN apt-key adv --keyserver hkps://hkps.pool.sks-keyservers.net --recv-keys 573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62
 RUN wget -q -O - https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 RUN echo 'deb https://dl.yarnpkg.com/debian/ stable main' >> /etc/apt/sources.list
 RUN echo 'deb http://nginx.org/packages/debian/ jessie nginx' >> /etc/apt/sources.list
