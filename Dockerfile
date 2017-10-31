@@ -1,4 +1,4 @@
-FROM resin/resin-base:v2.9.1 AS base
+FROM resin/resin-base:v2.9.2
 
 ENV NGINX_VERSION 1.12.1-1~jessie
 ENV YARN_VERSION=0.27.5-1
