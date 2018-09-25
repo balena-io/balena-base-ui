@@ -1,4 +1,4 @@
-FROM resin/resin-base:v4.3.0
+FROM resin/resin-base:v4.4.0
 
 ENV NGINX_VERSION 1.12.1-1~stretch
 ENV YARN_VERSION=0.27.5-1
