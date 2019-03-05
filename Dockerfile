@@ -1,7 +1,7 @@
 FROM balena/open-balena-base:v5.0.1
 
 ENV NGINX_VERSION 1.14.2-1~stretch
-ENV YARN_VERSION=0.27.5-1
+ENV YARN_VERSION 1.13.0-1
 
 RUN echo 'deb http://deb.debian.org/debian jessie main' >> /etc/apt/sources.list \
 	&& wget -q -O - https://nginx.org/keys/nginx_signing.key | apt-key add - \
