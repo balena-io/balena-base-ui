@@ -7,8 +7,7 @@ jobs:
     working_directory: /tmp/build
     environment:
       DOCKER_USERNAME: travisciresin
-      DOCKER_EMAIL: accounts+travisci+docker@resin.io
-      DOCKER_IMAGE: resin/resin-base-ui
+      DOCKER_IMAGE: balena/balena-base-ui
     steps:
       - checkout
       - setup_remote_docker:

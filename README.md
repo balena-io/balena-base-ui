@@ -1,1 +1,1 @@
-The image resin.io ui services use as a base
+The image balena.io ui services use as a base

@@ -3,5 +3,5 @@ docker:
   builds:
     - path: .
       dockerfile: Dockerfile
-      docker_repo: resin/resin-base-ui
+      docker_repo: balena/balena-base-ui
 
