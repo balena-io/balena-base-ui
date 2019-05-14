@@ -1,224 +1,249 @@
 - commits:
-  - author: Pagan Gazzard
-    body: ""
-    footers:
-      change-type: patch
-    hash: 34f5fd3bcb69bbb4bcdce054538d8d75cd9227dd
-    subject: Update open-balena-base to v7.0.2
-  date: "2019-05-06T06:38:02Z"
+    - subject: Add .versionbot/CHANGELOG.yml for downstream changelogs
+      hash: 4db634915129ebed933e9adcf6261334ba1daab0
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Add repo.yml for future open-balena-base updates
+      hash: a8e715cd5285a8ef1de26ce05317527bc41c861e
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 2.5.3
+  date: 2019-05-14T14:37:15.813Z
+- commits:
+    - author: Pagan Gazzard
+      body: ''
+      footers:
+        change-type: patch
+      hash: 34f5fd3bcb69bbb4bcdce054538d8d75cd9227dd
+      subject: Update open-balena-base to v7.0.2
+  date: '2019-05-06T06:38:02Z'
   version: 2.5.2
 - commits:
-  - author: Heds Simons
-    body: ""
-    footers:
-      change-type: patch
-      connects-to: '#34'
-      signed-off-by: Heds Simons <heds@balena.io>
-    hash: 3f0556d7ea6714fb471dd3e48408a1c22cae5ea1
-    subject: 'nginx: Mask nginx service after install'
-  date: "2019-03-27T06:05:33Z"
+    - author: Heds Simons
+      body: ''
+      footers:
+        change-type: patch
+        connects-to: '#34'
+        signed-off-by: Heds Simons <heds@balena.io>
+      hash: 3f0556d7ea6714fb471dd3e48408a1c22cae5ea1
+      subject: 'nginx: Mask nginx service after install'
+  date: '2019-03-27T06:05:33Z'
   version: 2.5.1
 - commits:
-  - author: Heds Simons
-    body: ""
-    footers:
-      change-type: minor
-      connects-to: '#32'
-      signed-off-by: Heds Simons <heds@balena.io>
-    hash: 92e3e6bf04eb17cd75ac7f7b6cd3402c31166e01
-    subject: 'open-balena-base: Update open-balena-base to v7.0.0'
-  date: "2019-03-14T10:12:55Z"
+    - author: Heds Simons
+      body: ''
+      footers:
+        change-type: minor
+        connects-to: '#32'
+        signed-off-by: Heds Simons <heds@balena.io>
+      hash: 92e3e6bf04eb17cd75ac7f7b6cd3402c31166e01
+      subject: 'open-balena-base: Update open-balena-base to v7.0.0'
+  date: '2019-03-14T10:12:55Z'
   version: 2.5.0
 - commits:
-  - author: Heds Simons
-    body: ""
-    footers:
-      change-type: minor
-      connects-to: '#30'
-      signed-off-by: Heds Simons <heds@balena.io>
-    hash: cdb77df52beba4f2ced22ed9c8c0973814470e37
-    subject: 'open-balena-base: Update open-balena-base to v6.0.0'
-  date: "2019-03-12T08:40:37Z"
+    - author: Heds Simons
+      body: ''
+      footers:
+        change-type: minor
+        connects-to: '#30'
+        signed-off-by: Heds Simons <heds@balena.io>
+      hash: cdb77df52beba4f2ced22ed9c8c0973814470e37
+      subject: 'open-balena-base: Update open-balena-base to v6.0.0'
+  date: '2019-03-12T08:40:37Z'
   version: 2.4.0
 - commits:
-  - author: Heds Simons
-    body: ""
-    footers:
-      change-type: patch
-      connects-to: '#28'
-      signed-off-by: Heds Simons <heds@balena.io>
-    hash: 2b428afce1245788a4e131425bfef9599f60a056
-    subject: 'codeowners: Add frontend team as codeowners'
-  date: "2019-03-08T03:40:15Z"
+    - author: Heds Simons
+      body: ''
+      footers:
+        change-type: patch
+        connects-to: '#28'
+        signed-off-by: Heds Simons <heds@balena.io>
+      hash: 2b428afce1245788a4e131425bfef9599f60a056
+      subject: 'codeowners: Add frontend team as codeowners'
+  date: '2019-03-08T03:40:15Z'
   version: 2.3.2
 - commits:
-  - author: Pagan Gazzard
-    body: ""
-    footers:
-      change-type: patch
-    hash: 5713aba35aa7a73d3c5aa65ff150aeb20ac2ceb5
-    subject: Rename to balena
-  date: "2019-03-06T01:07:02Z"
+    - author: Pagan Gazzard
+      body: ''
+      footers:
+        change-type: patch
+      hash: 5713aba35aa7a73d3c5aa65ff150aeb20ac2ceb5
+      subject: Rename to balena
+  date: '2019-03-06T01:07:02Z'
   version: 2.3.1
 - commits:
-  - author: Pagan Gazzard
-    body: ""
-    footers:
-      change-type: minor
-    hash: 90ae77dc486ea61e4ff1375bb9084e90c2d02827
-    subject: Update open-balena-base to v5.3.1
-  date: "2019-03-06T00:42:58Z"
+    - author: Pagan Gazzard
+      body: ''
+      footers:
+        change-type: minor
+      hash: 90ae77dc486ea61e4ff1375bb9084e90c2d02827
+      subject: Update open-balena-base to v5.3.1
+  date: '2019-03-06T00:42:58Z'
   version: 2.3.0
 - commits:
-  - author: Pagan Gazzard
-    body: ""
-    footers:
-      change-type: minor
-    hash: 8e7a745e94647299e7c4a5cbd415715f5f8f7d8c
-    subject: Update yarn to 1.13.0-1
-  date: "2019-03-05T09:33:47Z"
+    - author: Pagan Gazzard
+      body: ''
+      footers:
+        change-type: minor
+      hash: 8e7a745e94647299e7c4a5cbd415715f5f8f7d8c
+      subject: Update yarn to 1.13.0-1
+  date: '2019-03-05T09:33:47Z'
   version: 2.2.0
 - commits:
-  - author: Pagan Gazzard
-    body: ""
-    footers:
-      change-type: minor
-    hash: 341942f13cf6e5d4e30cadfbb125ac389d86d30c
-    subject: Update nginx to 1.14.2
-  date: "2019-03-05T08:56:09Z"
+    - author: Pagan Gazzard
+      body: ''
+      footers:
+        change-type: minor
+      hash: 341942f13cf6e5d4e30cadfbb125ac389d86d30c
+      subject: Update nginx to 1.14.2
+  date: '2019-03-05T08:56:09Z'
   version: 2.1.0
 - commits:
-  - author: Pagan Gazzard
-    body: ""
-    footers:
-      change-type: patch
-    hash: bf5773c0b119ce9e3736c7a22e62dcbb77b4197f
-    subject: Update open-balena-base to v5.0.1
-  date: "2018-12-03T06:27:12Z"
+    - author: Pagan Gazzard
+      body: ''
+      footers:
+        change-type: patch
+      hash: bf5773c0b119ce9e3736c7a22e62dcbb77b4197f
+      subject: Update open-balena-base to v5.0.1
+  date: '2018-12-03T06:27:12Z'
   version: 2.0.1
 - commits:
-  - author: Pagan Gazzard
-    body: ""
-    footers:
-      change-type: major
-    hash: 87bd60cb5093a6fe055058de39de30459c492ce2
-    subject: Update to open-balena-base 5.0.0, including nodejs 10
-  date: "2018-10-30T07:11:35Z"
+    - author: Pagan Gazzard
+      body: ''
+      footers:
+        change-type: major
+      hash: 87bd60cb5093a6fe055058de39de30459c492ce2
+      subject: 'Update to open-balena-base 5.0.0, including nodejs 10'
+  date: '2018-10-30T07:11:35Z'
   version: 2.0.0
 - commits:
-  - author: Heds Simons
-    body: ""
-    footers:
-      change-type: patch
-      connects-to: '#20'
-      signed-off-by: Heds Simons <heds@balena.io>
-    hash: 61f87186789307446db03b91e48ccbf310fc2a0b
-    subject: 'base: Update resin-base version to autoset subdomain envvars'
-  date: "2018-10-26T07:24:14Z"
+    - author: Heds Simons
+      body: ''
+      footers:
+        change-type: patch
+        connects-to: '#20'
+        signed-off-by: Heds Simons <heds@balena.io>
+      hash: 61f87186789307446db03b91e48ccbf310fc2a0b
+      subject: 'base: Update resin-base version to autoset subdomain envvars'
+  date: '2018-10-26T07:24:14Z'
   version: 1.2.3
 - commits:
-  - author: Heds Simons
-    body: |-
-      Updates `resin-base` to ensure DNS is prioritised
-      over MDNS, ensuring `.local` aliases are resolved
-      before those published on the local subnet.
-    footers:
-      change-type: patch
-      connects-to: '#18'
-      signed-off-by: Heds Simons <heds@resin.io>
-    hash: 963e5807563ec731ef0ac39db7a4e6c5cbd511cc
-    subject: 'dns: Ensure DNS is prioritised over MDNS'
-  date: "2018-09-28T02:01:10Z"
+    - author: Heds Simons
+      body: |-
+        Updates `resin-base` to ensure DNS is prioritised
+        over MDNS, ensuring `.local` aliases are resolved
+        before those published on the local subnet.
+      footers:
+        change-type: patch
+        connects-to: '#18'
+        signed-off-by: Heds Simons <heds@resin.io>
+      hash: 963e5807563ec731ef0ac39db7a4e6c5cbd511cc
+      subject: 'dns: Ensure DNS is prioritised over MDNS'
+  date: '2018-09-28T02:01:10Z'
   version: 1.2.2
 - commits:
-  - author: Heds Simons
-    body: |-
-      This change allows output to be captured by the Supervisor
-      on resinOS devices when run as a service.
-      Includes ResinCI config.
-    footers:
-      change-type: patch
-      connects-to: '#16'
-      signed-off-by: Heds Simons <heds@resin.io>
-    hash: a1bd0438fe31b7c1925bf74a7f927636144b6d1d
-    subject: 'logging: Enable logging output to also go to console'
-  date: "2018-09-25T01:47:14Z"
+    - author: Heds Simons
+      body: |-
+        This change allows output to be captured by the Supervisor
+        on resinOS devices when run as a service.
+        Includes ResinCI config.
+      footers:
+        change-type: patch
+        connects-to: '#16'
+        signed-off-by: Heds Simons <heds@resin.io>
+      hash: a1bd0438fe31b7c1925bf74a7f927636144b6d1d
+      subject: 'logging: Enable logging output to also go to console'
+  date: '2018-09-25T01:47:14Z'
   version: 1.2.1
 - commits:
-  - author: Pagan Gazzard
-    body: ""
-    footers:
-      change-type: minor
-      signed-off-by: Pagan Gazzard <page@resin.io>
-    hash: 6737b1e9ed27c616eb70dcebf938ffd2a66cabeb
-    subject: Update to resin-base v4.3.0
-  date: "2018-09-11T04:50:15Z"
+    - author: Pagan Gazzard
+      body: ''
+      footers:
+        change-type: minor
+        signed-off-by: Pagan Gazzard <page@resin.io>
+      hash: 6737b1e9ed27c616eb70dcebf938ffd2a66cabeb
+      subject: Update to resin-base v4.3.0
+  date: '2018-09-11T04:50:15Z'
   version: 1.2.0
 - commits:
-  - author: Heds Simons
-    body: ""
-    footers:
-      change-type: patch
-      connects-to: '#13'
-      signed-off-by: Heds Simons <heds@whaleway.net>
-    hash: c044b7c07452db15d1de9f15b2ba26aad8857f73
-    subject: Revert to use of sks-keyservers for nginx key fetch.
-  date: "2018-07-16T19:56:20Z"
+    - author: Heds Simons
+      body: ''
+      footers:
+        change-type: patch
+        connects-to: '#13'
+        signed-off-by: Heds Simons <heds@whaleway.net>
+      hash: c044b7c07452db15d1de9f15b2ba26aad8857f73
+      subject: Revert to use of sks-keyservers for nginx key fetch.
+  date: '2018-07-16T19:56:20Z'
   version: 1.1.3
 - commits:
-  - author: Heds Simons
-    body: ""
-    footers:
-      change-type: patch
-      connects-to: '#11'
-      signed-off-by: Heds Simons <heds@whaleway.net>
-    hash: 1e8b0011db3fd6b1fe772fc48bab0e6fc22b574c
-    subject: Move to fetching `nginx` signing key directly from nginx.org instead
-      of 3rd party keyserver.
-  date: "2018-07-14T01:55:02Z"
+    - author: Heds Simons
+      body: ''
+      footers:
+        change-type: patch
+        connects-to: '#11'
+        signed-off-by: Heds Simons <heds@whaleway.net>
+      hash: 1e8b0011db3fd6b1fe772fc48bab0e6fc22b574c
+      subject: >-
+        Move to fetching `nginx` signing key directly from nginx.org instead of
+        3rd party keyserver.
+  date: '2018-07-14T01:55:02Z'
   version: 1.1.2
 - commits:
-  - author: Heds Simons
-    body: |-
-      These changes move the UI to the latest base and:
-      * Remove the requirement for `gnupg-curl` as it is now unifed by appropriate
-      packages in `resin-base`
-      * Install `stretch` based packages instead of `jessie` *apart* from `rpl`
-      which does not work with set locale
-      This ultimately allows the UI to use MDNS.
-    footers:
-      change-type: patch
-      connects-to: '#9'
-      signed-off-by: Heds Simons <heds@whaleway.net>
-    hash: 3ce1fe86d70203d92ad8109a0aa2f8ed2cf43f38
-    subject: Move to Debian `stretch` version of `resin-base`.
-  date: "2018-07-05T01:20:56Z"
+    - author: Heds Simons
+      body: >-
+        These changes move the UI to the latest base and:
+
+        * Remove the requirement for `gnupg-curl` as it is now unifed by
+        appropriate
+
+        packages in `resin-base`
+
+        * Install `stretch` based packages instead of `jessie` *apart* from
+        `rpl`
+
+        which does not work with set locale
+
+        This ultimately allows the UI to use MDNS.
+      footers:
+        change-type: patch
+        connects-to: '#9'
+        signed-off-by: Heds Simons <heds@whaleway.net>
+      hash: 3ce1fe86d70203d92ad8109a0aa2f8ed2cf43f38
+      subject: Move to Debian `stretch` version of `resin-base`.
+  date: '2018-07-05T01:20:56Z'
   version: 1.1.1
 - commits:
-  - author: Michael Angelos Simos
-    body: ""
-    footers:
-      change-type: minor
-    hash: 53247f1994eedc6c500c0226a4825bc11c563075
-    subject: Update resin-base to v3.3.0
-  date: "2018-03-13T14:46:26Z"
+    - author: Michael Angelos Simos
+      body: ''
+      footers:
+        change-type: minor
+      hash: 53247f1994eedc6c500c0226a4825bc11c563075
+      subject: Update resin-base to v3.3.0
+  date: '2018-03-13T14:46:26Z'
   version: 1.1.0
 - commits:
-  - author: Thodoris Greasidis
-    body: ""
-    footers:
-      change-type: patch
-      resolves: '#5'
-    hash: eb7318fffada3dc866a377747a359668a172703d
-    subject: Remove intermediate step artifacts properly
-  date: "2018-02-03T02:03:41Z"
+    - author: Thodoris Greasidis
+      body: ''
+      footers:
+        change-type: patch
+        resolves: '#5'
+      hash: eb7318fffada3dc866a377747a359668a172703d
+      subject: Remove intermediate step artifacts properly
+  date: '2018-02-03T02:03:41Z'
   version: 1.0.2
 - commits:
-  - author: Lucian Buzzo
-    body: 'Fixes #2'
-    footers:
-      change-type: patch
-    hash: 3498caa0c2f4a3c284ca21257c3b3f6adf728358
-    subject: Update resin-base to 2.9.2
-  date: "2017-10-31T03:28:49Z"
+    - author: Lucian Buzzo
+      body: 'Fixes #2'
+      footers:
+        change-type: patch
+      hash: 3498caa0c2f4a3c284ca21257c3b3f6adf728358
+      subject: Update resin-base to 2.9.2
+  date: '2017-10-31T03:28:49Z'
   version: 1.0.1
