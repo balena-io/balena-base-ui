@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update open-balena-base to 7.2.0
+      hash: 59024f9bca32f3292cc9a8c595080a218c745799
+      body: |
+        Update open-balena-base from 7.0.2 to 7.2.0
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Pagan Gazzard
+      nested:
+        - commits:
+            - subject: Add default htop settings to hide threads and use a tree view
+              hash: c5d98f753b326b2b684ad997d470b0510eac86d2
+              body: ''
+              footer:
+                Change-type: minor
+                change-type: minor
+              author: Pagan Gazzard
+          version: open-balena-base-7.2.0
+          date: 2019-05-29T12:59:56.714Z
+        - commits:
+            - subject: Update nodejs to 10.16.0 and npm to 6.9.0
+              hash: 74815baf4ab2f617d2cd3301609ef21ea8aa4079
+              body: ''
+              footer:
+                Change-type: minor
+                change-type: minor
+              author: Pagan Gazzard
+          version: open-balena-base-7.1.0
+          date: 2019-05-29T11:12:37.555Z
+  version: 2.6.0
+  date: 2019-05-29T13:15:14.740Z
+- commits:
     - subject: Add .versionbot/CHANGELOG.yml for downstream changelogs
       hash: 4db634915129ebed933e9adcf6261334ba1daab0
       body: ''
