@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update open-balena-base to 7.2.1
+      hash: 666a1c9695c1472d470a7508af0e43dbec7522ff
+      body: |
+        Update open-balena-base from 7.2.0 to 7.2.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+      nested:
+        - commits:
+            - subject: Fix adding htoprc
+              hash: 24f7afc3559227e3c58cfcf1483aab91f034be5f
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Pagan Gazzard
+          version: open-balena-base-7.2.1
+          date: 2019-06-03T13:55:28.382Z
+  version: 2.6.1
+  date: 2019-06-06T18:45:37.245Z
+- commits:
     - subject: Update open-balena-base to 7.2.0
       hash: 59024f9bca32f3292cc9a8c595080a218c745799
       body: |
