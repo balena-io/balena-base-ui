@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update open-balena-base to 8.0.0
+      hash: 214e37e7f31dc982891ee6a24a23c428d475198d
+      body: |
+        Update open-balena-base from 7.2.2 to 8.0.0
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Pagan Gazzard
+      nested:
+        - commits:
+            - subject: Upgrade to debian buster
+              hash: d090290e87b279482d7e3884a0a9e93a845152fe
+              body: ''
+              footer:
+                Change-type: major
+                change-type: major
+              author: Pagan Gazzard
+          version: open-balena-base-8.0.0
+          date: 2019-07-08T10:31:53.488Z
+  version: 2.7.0
+  date: 2019-07-08T11:34:25.093Z
+- commits:
     - subject: Update open-balena-base to 7.2.2
       hash: 6c9926ec6358c68b55139efe6017012a1377bb66
       body: |
