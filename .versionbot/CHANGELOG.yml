@@ -1,4 +1,26 @@
 - commits:
+    - subject: Update open-balena-base to 8.0.2
+      hash: 761c60d2e71928081903ac74f84097ca8690071e
+      body: |
+        Update open-balena-base from 8.0.1 to 8.0.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+      nested:
+        - commits:
+            - subject: Update nodejs to 10.16.1 and npm to 6.10.2
+              hash: 11a141feb88985b698d5f4358505767e9065a200
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Pagan Gazzard
+          version: open-balena-base-8.0.2
+          date: 2019-08-06T13:52:12.883Z
+  version: 2.7.2
+  date: 2019-08-06T15:39:39.436Z
+- commits:
     - subject: Update open-balena-base to 8.0.1
       hash: a039da8807cf882067e1ee70e34fea172a50e0d9
       body: |
