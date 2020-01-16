@@ -1,4 +1,28 @@
 - commits:
+    - subject: Update docker used for ci builds
+      hash: 915f0562cb4fa7c0f853294afa1f6880de19081f
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Push docker images in parallel
+      hash: 6a50d2e4d7262133fc6ac4e49717c233e021ff44
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+    - subject: Make use of the pulled image for cache
+      hash: 58d7a0be1b5cb35ca1524503d231c6627a734d7a
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 2.8.2
+  date: 2020-01-16T17:52:42.207Z
+- commits:
     - subject: Update open-balena-base to 9.0.3
       hash: b126437b7fcf0d0082418cd730ecfbed2dbe3941
       body: |
