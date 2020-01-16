@@ -29,15 +29,16 @@ jobs:
           command: |
             docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
             set -x
-            docker tag ${DOCKER_IMAGE}:${CIRCLE_SHA1} ${DOCKER_IMAGE}:${CIRCLE_BRANCH}
-            docker tag ${DOCKER_IMAGE}:${CIRCLE_SHA1} ${DOCKER_IMAGE}:latest
-            docker push ${DOCKER_IMAGE}:${CIRCLE_SHA1}
-            docker push ${DOCKER_IMAGE}:${CIRCLE_BRANCH}
-            docker push ${DOCKER_IMAGE}:latest
+            docker tag "${DOCKER_IMAGE}:${CIRCLE_SHA1}" "${DOCKER_IMAGE}:${CIRCLE_BRANCH}"
+            docker tag "${DOCKER_IMAGE}:${CIRCLE_SHA1}" "${DOCKER_IMAGE}:latest"
+            docker push "${DOCKER_IMAGE}:${CIRCLE_SHA1}"
+            docker push "${DOCKER_IMAGE}:${CIRCLE_BRANCH}" &
+            docker push "${DOCKER_IMAGE}:latest" &
 
             apk add --no-cache git
             tag=$(git describe --tags) || true
             if [ "${tag}" != "" ]; then
-              docker tag ${DOCKER_IMAGE}:${CIRCLE_SHA1} ${DOCKER_IMAGE}:${tag}
-              docker push ${DOCKER_IMAGE}:${tag}
+              docker tag "${DOCKER_IMAGE}:${CIRCLE_SHA1}" "${DOCKER_IMAGE}:${tag}"
+              docker push "${DOCKER_IMAGE}:${tag}" &
             fi
+            wait
