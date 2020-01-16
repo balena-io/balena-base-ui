@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: library/docker:17
+      - image: library/docker:19-git
     working_directory: /tmp/build
     environment:
       DOCKER_USERNAME: travisciresin
@@ -11,9 +11,8 @@ jobs:
     steps:
       - checkout
       - setup_remote_docker:
-          version: 17.06.0-ce
-          reusable: true
-          exclusive: false
+          docker_layer_caching: true
+          version: 18.09.3
       - run: |
           docker info
           docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
@@ -35,7 +34,6 @@ jobs:
             docker push "${DOCKER_IMAGE}:${CIRCLE_BRANCH}" &
             docker push "${DOCKER_IMAGE}:latest" &
 
-            apk add --no-cache git
             tag=$(git describe --tags) || true
             if [ "${tag}" != "" ]; then
               docker tag "${DOCKER_IMAGE}:${CIRCLE_SHA1}" "${DOCKER_IMAGE}:${tag}"
