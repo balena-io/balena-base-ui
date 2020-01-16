@@ -21,9 +21,9 @@ jobs:
           name: Build
           command: |
             set -x
-            docker pull ${DOCKER_IMAGE}:${CIRCLE_BRANCH} || \
-              docker pull ${DOCKER_IMAGE}:master || true
-            docker build --rm=false --pull --tag ${DOCKER_IMAGE}:${CIRCLE_SHA1} .
+            docker pull "${DOCKER_IMAGE}:${CIRCLE_BRANCH}" || \
+              docker pull "${DOCKER_IMAGE}:master" || true
+            docker build --cache-from="${DOCKER_IMAGE}:${CIRCLE_BRANCH}" --cache-from="${DOCKER_IMAGE}:master" --rm=false --pull --tag "${DOCKER_IMAGE}:${CIRCLE_SHA1}" .
       - deploy:
           name: Push
           command: |
@@ -41,4 +41,3 @@ jobs:
               docker tag ${DOCKER_IMAGE}:${CIRCLE_SHA1} ${DOCKER_IMAGE}:${tag}
               docker push ${DOCKER_IMAGE}:${tag}
             fi
-
