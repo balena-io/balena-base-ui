@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update open-balena-base to 9.0.5
+      hash: ddabdfffaf786f5dceb7f090fe74276b764b98e1
+      body: |
+        Update open-balena-base from 9.0.3 to 9.0.5
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+      nested:
+        - commits:
+            - subject: Update nodejs to 12.14.1 and npm to 6.13.6
+              hash: b2405095eadada2e8d8f23f258247482c99ea564
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Pagan Gazzard
+          version: open-balena-base-9.0.5
+          date: 2020-01-10T17:34:31.385Z
+        - commits:
+            - subject: Mask apt-daily-upgrade.timer
+              hash: a714a4bebb2263baef4082c75ac42cf3e5fdf005
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Pagan Gazzard
+          version: open-balena-base-9.0.4
+          date: 2020-01-07T13:38:43.707Z
+  version: 2.8.3
+  date: 2020-01-20T13:44:03.244Z
+- commits:
     - subject: Update docker used for ci builds
       hash: 915f0562cb4fa7c0f853294afa1f6880de19081f
       body: ''
