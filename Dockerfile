@@ -1,4 +1,4 @@
-FROM balena/open-balena-base:v9.4.0
+FROM balena/open-balena-base:v9.4.1
 
 ENV NGINX_VERSION 1.14.2-1~stretch
 ENV YARN_VERSION 1.13.0-1
