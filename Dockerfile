@@ -1,12 +1,12 @@
 FROM balena/open-balena-base:v10.1.0
 
-ENV NGINX_VERSION 1.14.2-1~stretch
+ENV NGINX_VERSION 1.18.0-1~buster
 ENV YARN_VERSION 1.13.0-1
 
 # Note that we stop nginx from being available in systemd, as we run it manually in downstream images
 RUN echo 'deb http://deb.debian.org/debian jessie main' >> /etc/apt/sources.list \
 	&& wget -q -O - https://nginx.org/keys/nginx_signing.key | apt-key add - \
-	&& echo 'deb http://nginx.org/packages/debian/ stretch nginx' >> /etc/apt/sources.list \
+	&& echo 'deb http://nginx.org/packages/debian/ buster nginx' >> /etc/apt/sources.list \
 	&& wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
 	&& echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list \
 	&& wget -q -O - https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
