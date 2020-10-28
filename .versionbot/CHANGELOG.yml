@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update to nginx 1.18
+      hash: 8e10ab743ac348ce8dbb4b6abf19353e80133629
+      body: ''
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Pagan Gazzard
+      nested: []
+  version: 3.1.0
+  date: 2020-10-28T13:05:19.658Z
+- commits:
     - subject: Update open-balena-base to 10.1.0
       hash: 5d53cedfec7191a2c2fd6f6da9491dd0aa9a7fd8
       body: |
