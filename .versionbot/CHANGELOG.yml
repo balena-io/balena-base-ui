@@ -1,4 +1,15 @@
 - commits:
+    - subject: Remove Yarn
+      hash: b118ba7aaa87bea48473c753bcff00243a1ed79f
+      body: ''
+      footer:
+        Change-type: major
+        change-type: major
+      author: Thodoris Greasidis
+      nested: []
+  version: 5.0.0
+  date: 2021-03-08T15:49:32.517Z
+- commits:
     - subject: Update open-balena-base to 11.1.0
       hash: 6705af842c5c70d4b15ce0bc095c7c0612e4e904
       body: |
