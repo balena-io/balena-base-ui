@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update open-balena-base to 11.3.0
+      hash: 0643ae262bce56a1bb06079c5f31b82d4585fbe8
+      body: |
+        Update open-balena-base from 11.2.0 to 11.3.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Thodoris Greasidis
+      nested:
+        - commits:
+            - subject: Update nodejs to 14.17.1
+              hash: e0471dbbe042d4416ad3bba67ea50dcc4565de9f
+              body: ''
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+              nested: []
+          version: open-balena-base-11.3.0
+          date: 2021-06-30T03:47:56.917Z
+  version: 5.0.3
+  date: 2021-06-30T10:51:48.814Z
+- commits:
     - subject: Update open-balena-base to 11.2.0
       hash: 00f1050420a80d28b023b3012ddf762ac9aea240
       body: |
