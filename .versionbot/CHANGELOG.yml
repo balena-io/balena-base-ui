@@ -1,4 +1,19 @@
 - commits:
+    - subject: Delete CODEOWNERS
+      hash: 964157b27dadb03211a07293af9cc729ffe63db8
+      body: ''
+      footer:
+        See: >-
+          https://www.flowdock.com/app/rulemotion/pub/threads/trLcZFnSX9fLZn4LiaIv4xuBbah
+        see: >-
+          https://www.flowdock.com/app/rulemotion/pub/threads/trLcZFnSX9fLZn4LiaIv4xuBbah
+        Change-type: patch
+        change-type: patch
+      author: Thodoris Greasidis
+      nested: []
+  version: 5.0.4
+  date: 2021-06-30T18:45:09.706Z
+- commits:
     - subject: Update open-balena-base to 11.3.0
       hash: 0643ae262bce56a1bb06079c5f31b82d4585fbe8
       body: |
