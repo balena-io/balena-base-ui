@@ -1,4 +1,38 @@
 - commits:
+    - subject: Update open-balena-base to 11.3.2
+      hash: aa46ce0c74dace99b2406e5a01aff87f5876fd3c
+      body: |
+        Update open-balena-base from 11.3.0 to 11.3.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+      nested:
+        - commits:
+            - subject: Update nodejs to 14.17.2
+              hash: cc11cc5654ee0bf85af40882a567c9b7fb644f48
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Pagan Gazzard
+              nested: []
+          version: open-balena-base-11.3.2
+          date: 2021-07-02T17:34:25.572Z
+        - commits:
+            - subject: Delete .github directory
+              hash: d4d32ee5b021b1dd8864e2a2285530f1f4a85829
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: dfunckt
+              nested: []
+          version: open-balena-base-11.3.1
+          date: 2021-06-30T15:35:52.543Z
+  version: 5.0.5
+  date: 2021-07-05T16:12:49.229Z
+- commits:
     - subject: Delete CODEOWNERS
       hash: 964157b27dadb03211a07293af9cc729ffe63db8
       body: ''
