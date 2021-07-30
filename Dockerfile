@@ -1,4 +1,4 @@
-FROM balena/open-balena-base:v11.3.3
+FROM balena/open-balena-base:v11.3.5
 
 ENV NGINX_VERSION 1.18.0-1~buster
 
