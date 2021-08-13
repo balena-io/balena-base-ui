@@ -1,4 +1,17 @@
 - commits:
+    - subject: >-
+        Update open-balena-base to 11.3.11 Update open-balena-base from 11.3.10
+        to 11.3.11
+      hash: cfb7ad0e2e9c2d3f1aa23314ed9dc820016b49cf
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: ab77
+      nested: []
+  version: 5.0.11
+  date: 2021-08-13T18:38:49.858Z
+- commits:
     - subject: Bump open-balena-base
       hash: db8ca57c74b5c899b1743cf14648115f338195d6
       body: |
