@@ -1,4 +1,79 @@
 - commits:
+    - subject: Bump open-balena-base
+      hash: db8ca57c74b5c899b1743cf14648115f338195d6
+      body: |
+        * remove CircleCI builds
+
+        Update open-balena-base to 11.3.10
+        Update open-balena-base from 11.3.5 to 11.3.10
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: ab77
+      nested:
+        - commits:
+            - subject: Add missing init script
+              hash: e794f58cb352c0b5b8a42e946edfd0c6c07a3f66
+              body: |
+                * balena-root-ca
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: ab77
+              nested: []
+          version: open-balena-base-11.3.10
+          date: 2021-08-13T16:35:37.479Z
+        - commits:
+            - subject: Update no-systemd variant
+              hash: 7649527690631c316bb9db59e2e17d050b581fee
+              body: |
+                * fix entrypoint script no-systemd variant
+                * add retry to oneshot services
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: ab77
+              nested: []
+          version: open-balena-base-11.3.9
+          date: 2021-08-13T16:04:05.364Z
+        - commits:
+            - subject: Update nodejs to 14.17.5
+              hash: f53fdc6772da9353cd131053f350f266940997f5
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Pagan Gazzard
+              nested: []
+          version: open-balena-base-11.3.8
+          date: 2021-08-12T15:43:43.425Z
+        - commits:
+            - subject: Use DNS_TLD internally
+              hash: 90ce2fde5004cf4f3e69af4eaac19947b024b9c3
+              body: ''
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: ab77
+              nested: []
+          version: open-balena-base-11.3.7
+          date: 2021-07-30T19:18:49.722Z
+        - commits:
+            - subject: Accept DNS_TLD in place of BALENA_TLD
+              hash: a64345d362589ee037d982cb9481e476e72fb2f2
+              body: |
+                * backwards compatible with existing BALENA_TLD env var
+                * Handle DNS_TLD prefix (override BALENA_TLD if present)
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: ab77
+              nested: []
+          version: open-balena-base-11.3.6
+          date: 2021-07-30T18:19:56.513Z
+  version: 5.0.10
+  date: 2021-08-13T16:47:59.486Z
+- commits:
     - subject: Update open-balena-base to 11.3.9
       hash: 09bdef427ce048874c459935e0c2da8d21e10610
       body: |
