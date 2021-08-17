@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update open-balena-base to 11.3.12
+      hash: 312d3a34052d04276625fd777ea34ca03cdd698a
+      body: |
+        Update open-balena-base from 11.3.11 to 11.3.12
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: ab77
+      nested:
+        - commits:
+            - subject: Add hosts
+              hash: 19693644e1a255f602229c0cd9ba7d88ded29843
+              body: |
+                * loki
+                * alertmanager
+                * remove duplicate host
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: ab77
+              nested: []
+          version: open-balena-base-11.3.12
+          date: 2021-08-13T23:22:49.151Z
+  version: 5.0.12
+  date: 2021-08-17T19:56:59.911Z
+- commits:
     - subject: >-
         Update open-balena-base to 11.3.11 Update open-balena-base from 11.3.10
         to 11.3.11
