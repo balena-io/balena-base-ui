@@ -11,5 +11,7 @@ RUN wget -q -O - https://nginx.org/keys/nginx_signing.key | apt-key add - \
 	&& apt-get install rpl google-chrome-stable nginx=${NGINX_VERSION} \
 	&& rm /etc/init.d/nginx \
 	&& rm -rf /etc/nginx/conf.d/* \
+	&& rm -rf /etc/nginx/sites-available/* \
+	&& rm -rf /etc/nginx/sites-enabled/* \
 	&& rm -rf /var/lib/apt/lists/* \
 	&& systemctl mask nginx.service
