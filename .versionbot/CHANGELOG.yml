@@ -1,4 +1,15 @@
 - commits:
+    - subject: Remove all possible default nginx configs
+      hash: 6b99e2066aa27f6fd22e5275cd2f87309d7c0868
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+      nested: []
+  version: 6.0.2
+  date: 2021-08-19T21:03:29.439Z
+- commits:
     - subject: Update open-balena-base to 12.0.1
       hash: 0d6151f64a62dbd306b9615360a1a3f9fd5a959e
       body: |
