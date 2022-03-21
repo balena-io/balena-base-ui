@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update open-balena-base to 13.2.1
+      hash: ed0259b143bb5d915c95329462a1f3eadf0517d0
+      body: |
+        Update open-balena-base from 13.1.0 to 13.2.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 7.0.4
+  title: "'Update open-balena-base to 13.2.1'"
+  date: 2022-03-21T16:04:00.576Z
+- commits:
     - subject: Update open-balena-base to 13.1.0
       hash: deab2dae19d9cf912f3417602aa70ee8c5da2bac
       body: |
