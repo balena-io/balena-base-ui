@@ -1,4 +1,4 @@
-FROM balena/open-balena-base:v13.2.1
+FROM balena/open-balena-base:v13.3.0
 
 ENV NGINX_VERSION 1.18.0-6.1
 
