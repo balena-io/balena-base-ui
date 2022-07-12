@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update nginx to 1.22.0
+      hash: 3b393548c1ee8b13898e90b5f8ba414d4d37fd8f
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Pagan Gazzard
+  version: 7.1.0
+  title: "'Update nginx to 1.22.0'"
+  date: 2022-07-12T16:55:19.002Z
+- commits:
     - subject: Update open-balena-base to 13.3.1
       hash: 72fe9bf34ee244f044d9090c1a960eed1fc0ed0d
       body: |
