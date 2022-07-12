@@ -1,4 +1,4 @@
-FROM balena/open-balena-base:v13.3.1
+FROM balena/open-balena-base:v13.4.0
 
 ENV NGINX_VERSION 1.22.0-1~bullseye
 
