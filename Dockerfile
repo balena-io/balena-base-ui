@@ -1,6 +1,6 @@
 FROM balena/open-balena-base:v13.3.1
 
-ENV NGINX_VERSION 1.18.0-6.1
+ENV NGINX_VERSION 1.22.0-1~bullseye
 
 # Note that we stop nginx from being available in systemd, as we run it manually in downstream images
 RUN wget -q -O - https://nginx.org/keys/nginx_signing.key | apt-key add - \
