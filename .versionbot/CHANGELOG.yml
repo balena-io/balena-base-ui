@@ -1,4 +1,15 @@
 - commits:
+    - subject: Switch from balenaCI to flowzone
+      hash: 800feae6ebd665fb484a2e6bbc2c7346899e0c75
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 7.1.2
+  title: ""
+  date: 2022-09-15T19:16:11.148Z
+- commits:
     - subject: Update open-balena-base to 13.4.0
       hash: 448a819ab1225d95d58963805e0c64d2d9070b21
       body: |
