@@ -1,4 +1,15 @@
 - commits:
+    - subject: Fix url for repo.yml
+      hash: 98f2168c27fbde8df486787e68789dbc7e175a10
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Page-
+  version: 8.0.1
+  title: ""
+  date: 2022-10-27T12:49:45.308Z
+- commits:
     - subject: Update open-balena-base to 14.0.0
       hash: b988a414f4119373f78d5b3c0b628f78784d8fc0
       body: |
