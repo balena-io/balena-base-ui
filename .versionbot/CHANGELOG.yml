@@ -1,4 +1,17 @@
 - commits:
+    - subject: "flowzone: Inherit secrets from Org"
+      hash: c5f8bb6891eedb0531c5dd389b1ccb4263facfca
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+  version: 8.0.2
+  title: ""
+  date: 2023-02-06T14:01:07.394Z
+- commits:
     - subject: Fix url for repo.yml
       hash: 98f2168c27fbde8df486787e68789dbc7e175a10
       body: ""
