@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update open-balena-base to 14.7.2
+      hash: c75ae107ecfab84a21f5c12c07a55dfa8a1154a3
+      body: |
+        Update open-balena-base from 14.4.1 to 14.7.2
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Pagan Gazzard
+  version: 9.1.0
+  title: ""
+  date: 2023-03-22T16:05:56.093Z
+- commits:
     - subject: Switch to chromium for arm64 support
       hash: 719112de16793a694db9a21b5123e53650b1144f
       body: ""
