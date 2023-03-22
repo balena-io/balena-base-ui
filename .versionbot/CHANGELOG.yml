@@ -1,4 +1,22 @@
 - commits:
+    - subject: Switch to chromium for arm64 support
+      hash: 719112de16793a694db9a21b5123e53650b1144f
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: Pagan Gazzard
+    - subject: Build multiarch images for amd64 and arm64
+      hash: 61d74f5e3e26d769a8cdcb03517aa15dd50ee0c3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 9.0.0
+  title: ""
+  date: 2023-03-22T15:59:06.237Z
+- commits:
     - subject: Update open-balena-base to 14.4.1
       hash: 05788607a494483e4756e1c3f63997c0ca7342b5
       body: |
