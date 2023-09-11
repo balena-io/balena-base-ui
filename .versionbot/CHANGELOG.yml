@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update open-balena-base to 16.0.0
+      hash: 4b3aa29dfd6aaafbeb32b67c10610cd7dc931807
+      body: |
+        Update open-balena-base from 15.0.0 to 16.0.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 10.0.1
+  title: ""
+  date: 2023-09-11T11:01:19.657Z
+- commits:
     - subject: Update open-balena-base to 15.x and nginx to 1.24
       hash: d33e56c9103009f48f2d11bf81f4c2a44c54a69d
       body: |
