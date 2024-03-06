@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update balena/open-balena-base Docker tag to v17.0.9
+      hash: 693e2dddc66a881e0e38f8c8cd84fe301f7e47eb
+      body: |
+        Update balena/open-balena-base from 17.0.8 to 17.0.9
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+  version: 10.0.12
+  title: ""
+  date: 2024-03-06T19:54:43.657Z
+- commits:
     - subject: Update balena/open-balena-base Docker tag to v17.0.8
       hash: bb9e6c375c586cdd37e79b8d6fb4b2ad26c32e83
       body: |
@@ -468,18 +480,24 @@
                 + allows balenaMachine(s)/BoB(s) to automatically configure
                 itself (without bob-cli)
 
-                + auto-configuration requires balena-ca and cert-manager to do the heavy lifting prior
+                + auto-configuration requires balena-ca and cert-manager to do
+                the heavy lifting prior
 
-                + corresponding [balena-on-balena PR](https://github.com/balena-io/balena-on-balena/pull/261)
+                + corresponding [balena-on-balena
+                PR](https://github.com/balena-io/balena-on-balena/pull/261)
 
 
-                * refactor confd.service to include both root-ca and host-envvars handling
+                * refactor confd.service to include both root-ca and
+                host-envvars handling
 
-                * add systemd path watcher to restart confd if keys/certs change during runtime
+                * add systemd path watcher to restart confd if keys/certs change
+                during runtime
 
-                * store stack configuration available to all services in a persistent/shared volume (/balena)
+                * store stack configuration available to all services in a
+                persistent/shared volume (/balena)
 
-                * change resolver order to dns => mdns (ipv4) => mdns (ipv6) => return
+                * change resolver order to dns => mdns (ipv4) => mdns (ipv6) =>
+                return
 
                 * configure API key and JOSE/JWT key id
 
@@ -524,7 +542,8 @@
                 * allows dynamic certificate generation and loading within the
                 stack
 
-                * if a (volume|directory) /certs exists, set up a notification to watch
+                * if a (volume|directory) /certs exists, set up a notification
+                to watch
                   for /certs/ca-bundle.pem and update CA certificates/restart confd
               footer:
                 Change-type: patch
@@ -827,7 +846,8 @@
               body: >
                 * TOKEN_AUTH_REALM => REGISTRY2_TOKEN_AUTH_REALM
 
-                * REGISTRY2_TOKEN_AUTH_REALM is the new name for BALENA_TOKEN_AUTH_REALM
+                * REGISTRY2_TOKEN_AUTH_REALM is the new name for
+                BALENA_TOKEN_AUTH_REALM
               footer:
                 Change-type: patch
                 change-type: patch
@@ -2009,11 +2029,13 @@
       body: >-
         These changes move the UI to the latest base and:
 
-        * Remove the requirement for `gnupg-curl` as it is now unifed by appropriate
+        * Remove the requirement for `gnupg-curl` as it is now unifed by
+        appropriate
 
         packages in `resin-base`
 
-        * Install `stretch` based packages instead of `jessie` *apart* from `rpl`
+        * Install `stretch` based packages instead of `jessie` *apart* from
+        `rpl`
 
         which does not work with set locale
 
