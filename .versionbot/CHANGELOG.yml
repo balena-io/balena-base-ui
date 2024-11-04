@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update repo.yml for nested changelogs
+      hash: d577817dde23d691b4afa368cd8ea2eb6fdecac5
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Pagan Gazzard
+  version: 10.0.39
+  title: ""
+  date: 2024-11-04T13:30:53.784Z
+- commits:
     - subject: Update balena/open-balena-base Docker tag to v18.0.16
       hash: 73bad09d93fcc9ef771eee8eaba83fb0123cf357
       body: |
