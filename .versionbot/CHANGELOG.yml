@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena/open-balena-base Docker tag to v18.0.41
+      hash: 7f43beaa4edf83b4821a9de15994a2e381580ecf
+      body: |
+        Update balena/open-balena-base from 18.0.40 to 18.0.41
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update Node.js to v22.18.0
+              hash: cd092ea8521051215e32f3f19b9bf18f57a3e30e
+              body: |
+                Update node from 22.17.1 to 22.18.0
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: open-balena-base-18.0.41
+          title: ""
+          date: 2025-07-31T23:10:19.726Z
+  version: 10.0.63
+  title: ""
+  date: 2025-08-01T00:00:21.576Z
+- commits:
     - subject: Update balena/open-balena-base Docker tag to v18.0.40
       hash: 828a4fc09944489f79dc8bef360b5314f870c79e
       body: |
