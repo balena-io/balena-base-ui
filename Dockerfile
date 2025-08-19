@@ -1,4 +1,4 @@
-FROM balena/open-balena-base:19.0.2
+FROM balena/open-balena-base:19.1.0
 
 ENV NGINX_VERSION 1.24.0-1~bookworm
 
