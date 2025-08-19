@@ -1,4 +1,34 @@
 - commits:
+    - subject: Update balena/open-balena-base Docker tag to v19.1.0
+      hash: b48f73c42c21cdb18ad1c224e2db97fc3b202584
+      body: |
+        Update balena/open-balena-base from 19.0.2 to 19.1.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Add s6-overlay variant to replace systemd
+              hash: ba3c19d5d04e8e02ed142d2d7d4b7dce5ad8c7c0
+              body: |
+                s6-overlay is a simple init process that does not
+                require a privileged container, and avoids conflicts with
+                hosts running cgroups v2
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: open-balena-base-19.1.0
+          title: ""
+          date: 2025-08-19T20:00:03.167Z
+  version: 10.0.67
+  title: ""
+  date: 2025-08-19T20:57:43.756Z
+- commits:
     - subject: Update balena/open-balena-base Docker tag to v19.0.2
       hash: 6dd76732bea75f6e9c3a426a4b677fe590df0d48
       body: |
