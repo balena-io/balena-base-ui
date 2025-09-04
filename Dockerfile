@@ -7,6 +7,7 @@ RUN apt-get update \
 		gnupg \
 	&& rm -rf /var/lib/apt/lists/*
 
+# renovate: datasource=repology depName=debian_13/nginx versioning=loose
 ARG NGINX_VERSION=1.28.0-1~trixie
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
