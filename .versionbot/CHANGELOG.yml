@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena/open-balena-base Docker tag to v20.0.1
+      hash: e313bb41c7eeac97e1acf8e5e25430da8129b2f3
+      body: |
+        Update balena/open-balena-base from 20.0.0 to 20.0.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update Node.js to v24.8.0
+              hash: 8319b18eecd27f78611e48f3b59f191e672ce2e7
+              body: |
+                Update node from 24.7.0 to 24.8.0
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: open-balena-base-20.0.1
+          title: ""
+          date: 2025-09-10T21:07:41.437Z
+  version: 12.0.1
+  title: ""
+  date: 2025-09-10T21:54:20.980Z
+- commits:
     - subject: Automate nginx dependency bumps with renovate
       hash: 3c8b0c562dc854d8bd5aba714c9810d884c1233e
       body: ""
