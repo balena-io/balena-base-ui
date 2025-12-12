@@ -1,4 +1,27 @@
 - commits:
+    - subject: Update balena/open-balena-base Docker tag to v20.2.4
+      hash: 5140c22b014bdde888ed1e465e78468792dd5ca6
+      body: |
+        Update balena/open-balena-base from 20.2.3 to 20.2.4
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "patch: Use flock instead of lockfile in critical sesion"
+              hash: c26ce0f5736ab6817abdcd60f78729502180399d
+              body: ""
+              footer: {}
+              author: Anton Belodedenko
+              nested: []
+          version: open-balena-base-20.2.4
+          title: ""
+          date: 2025-12-12T17:29:51.399Z
+  version: 12.0.13
+  title: ""
+  date: 2025-12-12T17:59:13.138Z
+- commits:
     - subject: Update balena/open-balena-base Docker tag to v20.2.3
       hash: 2fc73c3b0bdf6b568ff38190c86f0f3c3f467a8a
       body: |
