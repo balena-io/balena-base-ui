@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena/open-balena-base Docker tag to v21
+      hash: 2f1210d2c67bccb89a98c06af6e09033e47d8786
+      body: |
+        Update balena/open-balena-base from 20.2.8 to 21.0.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Remove DELTA_S3_HOST from HOSTS_CONFIG
+              hash: c75a3919ff744e6a4e4b42f45719cfb666a390a7
+              body: ""
+              footer:
+                Change-type: major
+                change-type: major
+              author: joshbwlng
+              nested: []
+          version: open-balena-base-21.0.0
+          title: ""
+          date: 2026-02-19T02:40:33.603Z
+  version: 12.0.18
+  title: ""
+  date: 2026-02-19T07:54:16.182Z
+- commits:
     - subject: Update balena/open-balena-base Docker tag to v20.2.8
       hash: 3fbd90610aaca993cac468f74bee2d489243ee49
       body: |
