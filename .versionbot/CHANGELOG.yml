@@ -1,4 +1,29 @@
 - commits:
+    - subject: Update balena/open-balena-base Docker tag to v21.0.12
+      hash: c82ffdf6d8e1dec8ca9ea8559a81f14b05cf0b8a
+      body: |
+        Update balena/open-balena-base from 21.0.11 to 21.0.12
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Revert flowzone pinning to master
+              hash: b0434d2f26b715fad9aa3d025c109e2bb20d0800
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Kyle Harding
+              nested: []
+          version: open-balena-base-21.0.12
+          title: ""
+          date: 2026-03-26T17:37:38.362Z
+  version: 12.0.38
+  title: ""
+  date: 2026-03-26T18:23:40.075Z
+- commits:
     - subject: Revert flowzone pinning to master
       hash: 4b3268fd72eeb13f57feca6aadfc1141f474c251
       body: ""
