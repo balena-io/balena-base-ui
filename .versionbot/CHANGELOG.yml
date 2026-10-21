@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena/open-balena-base Docker tag to v22.0.4
+      hash: c5404e0954b50b60b09f7a36ba6f19dc47e38edd
+      body: |
+        Update balena/open-balena-base from 22.0.3 to 22.0.4
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update debian:13 Docker digest to 4c25275
+              hash: 012c4e94107837ffc8afc9db56e2b4a319f81552
+              body: |
+                Update debian
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: open-balena-base-22.0.4
+          title: ""
+          date: 2026-10-21T02:13:31.822Z
+  version: 12.0.68
+  title: ""
+  date: 2026-10-21T03:06:27.892Z
+- commits:
     - subject: Update balena/open-balena-base Docker tag to v22.0.3
       hash: 1b0414f8c6a003cd7727598fe701e110627cc01b
       body: |
