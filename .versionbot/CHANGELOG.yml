@@ -1,4 +1,50 @@
 - commits:
+    - subject: Update balena/open-balena-base Docker tag to v22.1.0
+      hash: a6c411f3d26bba87f4c20462c8311408e74e0e1d
+      body: |
+        Update balena/open-balena-base from 22.0.9 to 22.1.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Run configure-balena before s6 init and export its env
+              hash: 76851befbf2b82afcf6fabb66a1c07b5ad42867b
+              body: >
+                configure-balena.sh now runs in s6-init, before /init. s6-init
+                exports
+
+                /etc/docker.env, so generated values reach
+                /run/s6/container_environment
+
+                and every with-contenv service. config/env and load_env_file are
+                now
+
+                optional for with-contenv services.
+
+
+                The confd oneshot runs true, kept so dependencies.d/confd
+                resolves.
+
+
+                Images with a custom ENTRYPOINT must exec
+
+                /etc/s6-overlay/scripts/s6-init instead of /init.
+              footer:
+                Change-type: minor
+                change-type: minor
+                Signed-off-by: Kyle Harding <kyle@balena.io>
+                signed-off-by: Kyle Harding <kyle@balena.io>
+              author: Kyle Harding
+              nested: []
+          version: open-balena-base-22.1.0
+          title: ""
+          date: 2026-10-29T14:17:39.025Z
+  version: 12.0.74
+  title: ""
+  date: 2026-10-29T15:01:45.542Z
+- commits:
     - subject: Update balena/open-balena-base Docker tag to v22.0.9
       hash: 63d1784a874ba2c6e812fcd749c936bb686ce636
       body: |
