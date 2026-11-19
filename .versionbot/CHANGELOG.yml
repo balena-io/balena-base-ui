@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update nginx to 1.30.7
+      hash: 7132d40c18571565abd696bc57d780fe3ab150e0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: joshbwlng
+      nested: []
+  version: 12.0.78
+  title: ""
+  date: 2026-11-19T00:41:57.917Z
+- commits:
     - subject: Update balena/open-balena-base Docker tag to v22.1.4
       hash: 6145cc3a7decdd4c192ea0a4b7f6da546c3c6c05
       body: |
