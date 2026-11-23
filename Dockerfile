@@ -1,4 +1,4 @@
-FROM balena/open-balena-base:22.2.1-s6-overlay@sha256:c0e3d6f3ac5ae2707e1e3fdf0222eaa629120e1247e03d52b9911b3d4ab5c95f
+FROM balena/open-balena-base:22.2.2-s6-overlay@sha256:04d72b2c2f1f355c667186a586412c4969885d9ef508d796c6e1d5e6d0ba9ae6
 
 # Install gnupg to allow us to add the nginx signing key
 # hadolint ignore=DL3008
