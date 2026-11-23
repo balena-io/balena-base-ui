@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update balena/open-balena-base Docker tag to v22.2.2
+      hash: 4ff16c366d981c0283f6c27287d5e6e747817653
+      body: |
+        Update balena/open-balena-base from 22.2.1 to 22.2.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Update dependency zyedidia/eget to v1.3.4
+              hash: 5331139570c1434feec7e6fcac03ae2219bc0b39
+              body: |
+                Update zyedidia/eget from 1.3.3 to 1.3.4
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: balena-renovate[bot]
+              nested: []
+          version: open-balena-base-22.2.2
+          title: ""
+          date: 2026-11-23T23:06:12.357Z
+  version: 12.0.81
+  title: ""
+  date: 2026-11-23T23:56:09.746Z
+- commits:
     - subject: Update balena/open-balena-base Docker tag to v22.2.1
       hash: 85b6fdd19224c1a4cf6d866620790019decd9474
       body: |
